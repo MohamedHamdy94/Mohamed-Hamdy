@@ -3,7 +3,7 @@ const data = {
     {
       name: 'Movies ( Redux saga & toolkit )',
       image: 'moviesHome.PNG',
-      link: ' https://mohamedhamdy94.github.io/Movies-App-toolkit-saga/',
+      link: 'https://mohamedhamdy94.github.io/Movies-App-toolkit-saga/',
       githup: 'https://github.com/MohamedHamdy94/Movies-App-toolkit-saga.git',
     },
     {
