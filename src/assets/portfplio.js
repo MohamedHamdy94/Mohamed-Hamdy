@@ -29,8 +29,8 @@ const data = {
     {
       name: 'To do App',
       image: 'Angular ToDo.PNG',
-      link: 'https://github.com/MohamedHamdy94/Angular-ToDo-App.git',
-      githup: 'https://mohamedhamdy94.github.io/Angular-ToDo-App/',
+      link: 'https://mohamedhamdy94.github.io/Angular-ToDo-App/',
+      githup: 'https://github.com/MohamedHamdy94/Angular-ToDo-App.git',
     },
     {
       name: 'Admin Dashboard & Backend',
