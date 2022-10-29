@@ -6,7 +6,6 @@ import data from '../../assets/portfplio';
 
 const Portfolio = () => {
   const reactProjects = data.reactProjects;
-  console.log(data);
   console.log(reactProjects);
 
   const angularProjects = data.angularProjects;
