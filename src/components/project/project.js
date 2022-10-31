@@ -1,28 +1,48 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Porject = (props) => {
   const { project } = props;
+  console.log(project.description);
   return (
-    <article className="portfolio__item ">
-      <div className=" portfolio__image">
-        <img
-          src={require(`../../assets/imges/${project.image}`)}
-          alt="Project image"
-        />
-        <h4>{project.name}</h4>
-        <div className="portfolio__cta d-flex align-items-end">
-          <a href={project.githup} className="btn " target="_blank">
-            Github
-          </a>
-          {project.link && (
-            <a href="" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-            
+    <Link to={`project/${project.id}`}>
+      <article className="portfolio__item ">
+        <div className=" portfolio__image">
+          {project.image && (
+            <img
+              src={require(`../../assets/imges/${project.image}`)}
+              alt="Project image"
+            />
           )}
+          <h4>{project.name}</h4>
+          <div className="portfolio__cta d-flex align-items-end">
+            {project.githup && (
+              <a href={project.githup} className="btn " target="_blank">
+                Github
+              </a>
+            )}
+            {project.link && (
+              <a href={project.link} className="btn btn-primary" target="_blank">
+                Live Demo
+              </a>
+            )}
+            {project.description && (
+              <h5>
+              {project.description.map((description)=>{
+                return(
+                  <p>
+                  {description} 
+               </p>
+                )
+              })}
+              </h5>
+        
+            )
+            }
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
+    </Link>
   );
 };
 export default Porject;

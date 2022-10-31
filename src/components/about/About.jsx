@@ -46,13 +46,18 @@ const About = () => {
             </article>
           </div>
 
-          <p>
+          {/* <p>
             ITI graduate specialized in Mearn full stack eager to take a
             challenging role as Front End Web Developer in a highly technical
             company where my skills are professionally applied in Front-End Web
             Development HTML 5, CSS 3, JavaScript, ES6, Bootstrap 5, JQuery,
             SCSS, JSON, AJAX, Typescript, Angular and React and use these skills
             in providing quality service to the company.
+          </p> */}
+          <p>
+          Full Stack Web Developer using MEARN. Graduated from Information Technology Institute (ITI).
+had many opportunities to work in a vast spectrum of web technologies what let me gather a significant 
+amount of various experience. have the knowledge and patience required to make just about anything.
           </p>
 
           <a href="#contact" className="btn btn-primary aboutBtn">

@@ -71,7 +71,7 @@
   color: var(--color-light);
 }
 .about__content p {
-  margin: 2rem 2.6rem;
+  margin: 2rem 2rem;
   color: var(--color-1ight);
 }
 @media screen and (max-width: 1024px) {

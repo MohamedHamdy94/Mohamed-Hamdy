@@ -17,21 +17,21 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <h3>React Projects</h3>
       <div className="container portfolio__container">
-        {reactProjects.map((project) => {
+        {reactProjects.map((project,i) => {
           return (
             <>
-              <Porject project={project}></Porject>
+              <Porject key={i} project={project}></Porject>
             </>
           )
-        })}
+        })} 
       </div>
       
       <h3>Angular Projects</h3>
       <div className="container portfolio__container">
-        {angularProjects.map((project) => {
+        {angularProjects.map((project,i) => {
           return (
             <>
-              <Porject project={project}></Porject>
+              <Porject key={i} project={project}></Porject>
             </>
           )
         })}
