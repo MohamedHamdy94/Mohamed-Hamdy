@@ -29,5 +29,11 @@
 align-items: flex-end;
 }
 p{
+}
+ul li{
   color: white;
+  list-style:disc;
+}
+h4 {
+  font-weight: bolder;
 }

@@ -4,7 +4,9 @@ import data from '../../../assets/portfplio';
 import Porject from '../../project/project';
 import './detials.css'
 const ProjectDetials = () => {
+  const [ProjectDetials,setProjectDetials]=useState([])
   const [project,setProject]=useState([])
+
 const { id } = useParams();
 const angular= data.angularProjects.find((project)=>project.id==id)
 
@@ -13,9 +15,11 @@ useEffect(() => {
   if(id){
     console.log(id)
     if(react){
-  setProject(react.details)
+      setProject(react)
+  setProjectDetials(react.details)
 }else if(angular){
-  setProject(angular.details)
+  setProject(angular)
+  setProjectDetials(angular.details)
 }else{
   alert("project not found")
 }
@@ -24,7 +28,7 @@ useEffect(() => {
   return (
     <div className="container  portfolio__container__detials">
 
-      {project.map((project,i) => {
+      {ProjectDetials.map((project,i) => {
         return (
           <div className='m-3'>
             <Porject key={i} project={project}></Porject>

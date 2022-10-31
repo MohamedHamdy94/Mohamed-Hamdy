@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './components/Home';
+import Footer from './components/footer/footer';
 import ProjectDetials from './components/portfolio/ProjectDetials/ProjectDetials';
 import { Route, Routes ,BrowserRouter} from 'react-router-dom';
 
@@ -14,6 +15,8 @@ const App = () => {
           <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
+
     </>
   );
 };

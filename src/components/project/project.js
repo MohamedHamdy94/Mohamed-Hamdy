@@ -27,15 +27,15 @@ const Porject = (props) => {
               </a>
             )}
             {project.description && (
-              <h5>
+              <ul>
               {project.description.map((description)=>{
                 return(
-                  <p>
+                  <li>
                   {description} 
-               </p>
+               </li>
                 )
               })}
-              </h5>
+              </ul>
         
             )
             }

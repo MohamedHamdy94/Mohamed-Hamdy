@@ -7,7 +7,6 @@ import Services from './Services/Services';
 import Portfolio from './portfolio/Portfolio';
 import Testimonials from './testimonials/testimonials';
 import Contact from './contact/Contact';
-import Footer from './footer/footer.jsx';
 const Home = () => {
   return (
     <>
@@ -19,7 +18,6 @@ const Home = () => {
       <Portfolio />
       {/* <Testimonials /> */}
       <Contact />
-      <Footer />
     </>
 
   );
