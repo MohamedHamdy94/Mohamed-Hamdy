@@ -124,7 +124,7 @@ const data = {
       details: [
         {
           name: 'Home page',
-          image: 'shoppingHome2.PNG',
+          image: 'shoppingHome.PNG',
           description: [
             `The home page where the products are displayed to the user
   In order to create an e-commerce site I will go to this site :
@@ -134,13 +134,13 @@ const data = {
   https://fakestoreapi.com/products`,
           ],
         },
-        // {
-        //   name: 'Product Details ',
-        //   image: 'shoppingHome.PNG',
-        //   description: [
-        //     `When the user clicks on any product card from the list, he is directed to the product detail page`,
-        //   ],
-        // },
+        {
+          name: 'Product Details ',
+          image: 'ProductDetails.PNG',
+          description: [
+            `When the user clicks on any product image from the list, he is directed to the product detail page`,
+          ],
+        },
         {
           name: 'Search for Product',
           image: 'shoppingSearch.PNG',
