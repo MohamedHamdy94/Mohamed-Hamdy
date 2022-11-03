@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mohamed-Hamdy/static/css/main.38f13729.css",
-    "main.js": "/Mohamed-Hamdy/static/js/main.50296729.js",
+    "main.css": "/Mohamed-Hamdy/static/css/main.10e07395.css",
+    "main.js": "/Mohamed-Hamdy/static/js/main.16a41a0f.js",
     "static/media/IMG20220815155356.jpg": "/Mohamed-Hamdy/static/media/IMG20220815155356.83a4e16208716f544861.jpg",
     "static/media/moviesSearch.PNG": "/Mohamed-Hamdy/static/media/moviesSearch.dff2912f4d911c8d82b1.PNG",
     "static/media/moviesHome2.PNG": "/Mohamed-Hamdy/static/media/moviesHome2.faa0a24feb6d5a849811.PNG",
@@ -9,17 +9,19 @@
     "static/media/moviesFavourite.PNG": "/Mohamed-Hamdy/static/media/moviesFavourite.330ef6e898ebefd0af86.PNG",
     "static/media/movieEn.PNG": "/Mohamed-Hamdy/static/media/movieEn.6fe1816c97e93ab80be5.PNG",
     "static/media/movieAr.PNG": "/Mohamed-Hamdy/static/media/movieAr.c639df3ed05d16f68801.PNG",
-    "static/media/shoppingHome2.PNG": "/Mohamed-Hamdy/static/media/shoppingHome2.0a959c2df46853616f5c.PNG",
     "static/media/1665737760219.png": "/Mohamed-Hamdy/static/media/1665737760219.922afa97fc78b77308e3.png",
+    "static/media/shoppingHome.PNG": "/Mohamed-Hamdy/static/media/shoppingHome.f69365009358cec953de.PNG",
     "static/media/Captudgdsre.PNG": "/Mohamed-Hamdy/static/media/Captudgdsre.bcf5af97cd06a42af0bb.PNG",
-    "static/media/shoppingHome.PNG": "/Mohamed-Hamdy/static/media/shoppingHome.a5ebfc6b8c42b33a86b4.PNG",
+    "static/media/projectDetials.PNG": "/Mohamed-Hamdy/static/media/projectDetials.883282354305f419f4b2.PNG",
+    "static/media/ProductDetails.PNG": "/Mohamed-Hamdy/static/media/ProductDetails.3c416a08ece4080257bf.PNG",
     "static/media/amazonHome.PNG": "/Mohamed-Hamdy/static/media/amazonHome.4146c745d36a2875acce.PNG",
+    "static/media/moviepage.PNG": "/Mohamed-Hamdy/static/media/moviepage.16f486c0754b1f5d682c.PNG",
+    "static/media/shoppingSearch.PNG": "/Mohamed-Hamdy/static/media/shoppingSearch.58c9695f94b36088ead8.PNG",
     "static/media/Free-CV-template-86.pdf": "/Mohamed-Hamdy/static/media/Free-CV-template-86.e58293df7c04acec30fe.pdf",
     "static/media/me.png": "/Mohamed-Hamdy/static/media/me.6104d65a43cd3f493535.png",
-    "static/media/shoppingSearch.PNG": "/Mohamed-Hamdy/static/media/shoppingSearch.a21de73df85766680f39.PNG",
     "static/media/portfolio.PNG": "/Mohamed-Hamdy/static/media/portfolio.fd70f76e576b6ada750a.PNG",
+    "static/media/shoppingCart.PNG": "/Mohamed-Hamdy/static/media/shoppingCart.be8055462d6e1307ff13.PNG",
     "static/media/adminAddProduct.PNG": "/Mohamed-Hamdy/static/media/adminAddProduct.a4d6aa7cbe6e11d06d96.PNG",
-    "static/media/shoppingCart.PNG": "/Mohamed-Hamdy/static/media/shoppingCart.fc6db8abb62db80d1484.PNG",
     "static/media/admin.PNG": "/Mohamed-Hamdy/static/media/admin.ca065ca4c0f95740d5f7.PNG",
     "static/media/amazonProduct.PNG": "/Mohamed-Hamdy/static/media/amazonProduct.4e7b8624e27adbccbab3.PNG",
     "static/media/amazonPayPal .PNG": "/Mohamed-Hamdy/static/media/amazonPayPal .4c30dd2aad94dda15dc0.PNG",
@@ -36,11 +38,11 @@
     "static/media/amazonSignIn.PNG": "/Mohamed-Hamdy/static/media/amazonSignIn.6d0b958a86cc68e69249.PNG",
     "static/media/adminSingIn.PNG": "/Mohamed-Hamdy/static/media/adminSingIn.acfcf21f95c425aaaa27.PNG",
     "index.html": "/Mohamed-Hamdy/index.html",
-    "main.38f13729.css.map": "/Mohamed-Hamdy/static/css/main.38f13729.css.map",
-    "main.50296729.js.map": "/Mohamed-Hamdy/static/js/main.50296729.js.map"
+    "main.10e07395.css.map": "/Mohamed-Hamdy/static/css/main.10e07395.css.map",
+    "main.16a41a0f.js.map": "/Mohamed-Hamdy/static/js/main.16a41a0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.38f13729.css",
-    "static/js/main.50296729.js"
+    "static/css/main.10e07395.css",
+    "static/js/main.16a41a0f.js"
   ]
 }
