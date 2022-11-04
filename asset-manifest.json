@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mohamed-Hamdy/static/css/main.1abdc48f.css",
-    "main.js": "/Mohamed-Hamdy/static/js/main.0fda4235.js",
+    "main.js": "/Mohamed-Hamdy/static/js/main.fb18c84c.js",
     "static/media/IMG20220815155356.jpg": "/Mohamed-Hamdy/static/media/IMG20220815155356.83a4e16208716f544861.jpg",
     "static/media/moviesSearch.PNG": "/Mohamed-Hamdy/static/media/moviesSearch.dff2912f4d911c8d82b1.PNG",
     "static/media/moviesHome2.PNG": "/Mohamed-Hamdy/static/media/moviesHome2.faa0a24feb6d5a849811.PNG",
@@ -39,10 +39,10 @@
     "static/media/adminSingIn.PNG": "/Mohamed-Hamdy/static/media/adminSingIn.acfcf21f95c425aaaa27.PNG",
     "index.html": "/Mohamed-Hamdy/index.html",
     "main.1abdc48f.css.map": "/Mohamed-Hamdy/static/css/main.1abdc48f.css.map",
-    "main.0fda4235.js.map": "/Mohamed-Hamdy/static/js/main.0fda4235.js.map"
+    "main.fb18c84c.js.map": "/Mohamed-Hamdy/static/js/main.fb18c84c.js.map"
   },
   "entrypoints": [
     "static/css/main.1abdc48f.css",
-    "static/js/main.0fda4235.js"
+    "static/js/main.fb18c84c.js"
   ]
 }
