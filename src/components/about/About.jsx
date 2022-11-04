@@ -59,7 +59,12 @@ const About = () => {
             Technology Institute (ITI). had many opportunities to work in a vast
             spectrum of web technologies what let me gather a significant amount
             of various experience. have the knowledge and patience required to
-            make just about anything.
+            make just about anything.<br/>
+            {/* I can plan, design, build, launch, and maintain a website myself */}
+            Development for me is not just a code, but a whole business process for which I always find effective and competitive solutions.<br/>
+            have serious passion for UI effects, animations and creating intuitive, dynamic user experiences,
+           
+
           </p>
 
           <a href="#contact" className="btn btn-primary aboutBtn">

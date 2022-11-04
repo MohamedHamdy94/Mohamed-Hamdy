@@ -258,7 +258,8 @@ const data = {
       "Websites don't have to be static, I love making pages come to life.",
     ],
     UI_UX_Design: [
-      'My art & design background informs ideation to design through to implementation I can plan, design, build, launch, and maintain a website myself',
+      'My art & design background informs ideation to design through to implementation, I love making pages come to life.',
+      ' I can plan, design, build, launch, and maintain a website myself',
       'Strong preference for easy to use, intuitive UX/UI.',
       'Material UI / Angular Material / Bootstrap / Sass',
       'Fix any HTML/ HTML5,Bootstrap or CSS/ CSs3 styling issue.',
