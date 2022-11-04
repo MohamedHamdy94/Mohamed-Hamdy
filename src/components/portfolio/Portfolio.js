@@ -17,23 +17,23 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <h3>React Projects</h3>
       <div className="container portfolio__container">
-        {reactProjects.map((project,i) => {
+        {reactProjects.map((project, i) => {
           return (
             <>
               <Porject key={i} project={project}></Porject>
             </>
-          )
-        })} 
+          );
+        })}
       </div>
-      
+
       <h3>Angular Projects</h3>
       <div className="container portfolio__container">
-        {angularProjects.map((project,i) => {
+        {angularProjects.map((project, i) => {
           return (
             <>
               <Porject key={i} project={project}></Porject>
             </>
-          )
+          );
         })}
       </div>
 

@@ -5,9 +5,9 @@ const Porject = (props) => {
   const { project } = props;
   console.log(project.description);
   return (
-    <Link to={`project/${project.id}`}>
-      <article className="portfolio__item ">
-        <div className=" portfolio__image">
+    <article className="portfolio__item ">
+      <div className=" portfolio__image">
+        <Link to={`project/${project.id}`}>
           {project.image && (
             <img
               src={require(`../../assets/imges/${project.image}`)}
@@ -15,34 +15,29 @@ const Porject = (props) => {
             />
           )}
           <h4>{project.name}</h4>
-          <div className="portfolio__cta d-flex align-items-end">
-            {project.githup && (
-              <a href={project.githup} className="btn " target="_blank">
-                Github
-              </a>
-            )}
-            {project.link && (
-              <a href={project.link} className="btn btn-primary" target="_blank">
-                Live Demo
-              </a>
-            )}
-            {project.description && (
-              <ul>
-              {project.description.map((description)=>{
-                return(
-                  <li>
-                  {description} 
-               </li>
-                )
+        </Link>
+
+        <div className="portfolio__cta d-flex align-items-end">
+          {project.githup && (
+            <a href={project.githup} className="btn " target="_blank">
+              Github
+            </a>
+          )}
+          {project.link && (
+            <a href={project.link} className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          )}
+          {project.description && (
+            <ul>
+              {project.description.map((description) => {
+                return <li>{description}</li>;
               })}
-              </ul>
-        
-            )
-            }
-          </div>
+            </ul>
+          )}
         </div>
-      </article>
-    </Link>
+      </div>
+    </article>
   );
 };
 export default Porject;

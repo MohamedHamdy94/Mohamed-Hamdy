@@ -5,7 +5,7 @@ import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 const footer = () => {
   return (
-    <footer >
+    <footer>
       <div className="footer__socials">
         <a href="https://www.facebook.com/anakingmsr/">
           <FaFacebookF />

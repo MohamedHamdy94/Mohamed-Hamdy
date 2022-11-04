@@ -26,13 +26,13 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 0.5rem;
-align-items: flex-end;
+  align-items: flex-end;
 }
-p{
+p {
 }
-ul li{
+ul li {
   color: white;
-  list-style:disc;
+  list-style: disc;
 }
 h4 {
   font-weight: bolder;

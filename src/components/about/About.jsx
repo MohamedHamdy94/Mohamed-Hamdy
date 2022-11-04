@@ -55,9 +55,11 @@ const About = () => {
             in providing quality service to the company.
           </p> */}
           <p>
-          Full Stack Web Developer using MEARN. Graduated from Information Technology Institute (ITI).
-had many opportunities to work in a vast spectrum of web technologies what let me gather a significant 
-amount of various experience. have the knowledge and patience required to make just about anything.
+            Full Stack Web Developer using MEARN. Graduated from Information
+            Technology Institute (ITI). had many opportunities to work in a vast
+            spectrum of web technologies what let me gather a significant amount
+            of various experience. have the knowledge and patience required to
+            make just about anything.
           </p>
 
           <a href="#contact" className="btn btn-primary aboutBtn">

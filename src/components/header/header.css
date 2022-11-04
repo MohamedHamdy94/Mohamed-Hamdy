@@ -1,18 +1,14 @@
-
 header {
   height: 95vh;
   padding-top: 2rem;
   overflow: hidden;
-
-
 }
 .header__container {
   text-align: center;
   height: 100%;
-  position: relative
-
+  position: relative;
 }
-.header__container h1{
+.header__container h1 {
   font-size: 2rem;
 }
 /*========= CTA =========== */
@@ -46,10 +42,10 @@ header {
   position: absolute;
   left: calc(50% - 9.4rem);
   margin-top: 2rem;
-  border-radius: 5rem ;
+  border-radius: 5rem;
   overflow: hidden;
 }
-.me img{
+.me img {
   height: 100%;
   width: 100%;
 }
@@ -72,10 +68,10 @@ header {
     height: 100vh;
   }
   .cta {
-margin-left: 50px;  }
+    margin-left: 50px;
+  }
   .header__socials,
   .scroll__down {
     display: none;
-
   }
 }

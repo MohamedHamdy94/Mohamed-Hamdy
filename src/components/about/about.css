@@ -4,7 +4,7 @@
   gap: 15%;
 }
 .about__me {
-  width:300px;
+  width: 300px;
   height: 400px;
   aspect-ratio: 1/1;
   border-radius: 2rem;
@@ -18,15 +18,13 @@
   place-items: center;
 }
 .about__me-image {
-
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
-  transition: var(--transition) ;
+  transition: var(--transition);
 }
-.about__me-image:hover{
+.about__me-image:hover {
   transform: rotate(0);
-  
 }
 
 .about__cards {
@@ -44,7 +42,6 @@
   transition: var(--transition);
 }
 .about__card:hover {
-
   background: transparent;
 
   border-color: var(--color-primary-variant);
@@ -56,7 +53,6 @@
   text-align: center;
 
   cursor: default;
-
 }
 .about__icon {
   color: var(--color-primary);
@@ -87,7 +83,7 @@
     margin: 1rem 1.5rem;
   }
   .about__me {
-    width:300px;
+    width: 300px;
     height: 400px;
   }
 }
@@ -108,7 +104,7 @@
     margin: 1.5rem 0;
   }
   .about__me {
-    width:220px;
+    width: 220px;
     height: 300px;
   }
 }

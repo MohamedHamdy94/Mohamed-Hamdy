@@ -5,9 +5,9 @@ import data from '../../assets/portfplio';
 import ExperienceChild from './ExperienceChild';
 
 const frontendExperience = data.experience.frontend;
-console.log(frontendExperience)
+console.log(frontendExperience);
 const backendExperience = data.experience.backend;
-console.log(backendExperience)
+console.log(backendExperience);
 
 const experience = () => {
   return (

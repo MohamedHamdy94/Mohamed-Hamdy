@@ -4,14 +4,14 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageSquareDetail } from 'react-icons/bi';
-import './nav.css'
+import './nav.css';
 const Nav = () => {
-  const  [activeNav, setActiveNav ] = useState('#');
+  const [activeNav, setActiveNav] = useState('#');
   return (
-    <nav >
+    <nav>
       <a
         href="#"
-        onClick={() => setActiveNav('#' )} 
+        onClick={() => setActiveNav('#')}
         className={activeNav === '#' ? 'active' : ''}
       >
         <AiOutlineHome />
@@ -34,7 +34,6 @@ const Nav = () => {
         href="#services"
         onClick={() => setActiveNav('#services')}
         className={activeNav === '#services' ? 'active' : ''}
-      
       >
         <RiServiceLine />
       </a>
@@ -45,7 +44,6 @@ const Nav = () => {
       >
         <BiMessageSquareDetail />
       </a>
-
     </nav>
   );
 };

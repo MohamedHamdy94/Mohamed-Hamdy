@@ -26,9 +26,9 @@
   margin-bottom: 0.5rem;
 }
 .contact_option-h5 {
-overflow: hidden;
-text-overflow: ellipsis;
-max-width: 100ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100ch;
 }
 .contact_option a {
   margin-top: 0.7rem;
