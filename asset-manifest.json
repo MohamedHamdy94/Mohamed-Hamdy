@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mohamed-Hamdy/static/css/main.1abdc48f.css",
-    "main.js": "/Mohamed-Hamdy/static/js/main.fb18c84c.js",
+    "main.css": "/Mohamed-Hamdy/static/css/main.212e447d.css",
+    "main.js": "/Mohamed-Hamdy/static/js/main.5035e5c4.js",
     "static/media/IMG20220815155356.jpg": "/Mohamed-Hamdy/static/media/IMG20220815155356.83a4e16208716f544861.jpg",
     "static/media/moviesSearch.PNG": "/Mohamed-Hamdy/static/media/moviesSearch.dff2912f4d911c8d82b1.PNG",
     "static/media/moviesHome2.PNG": "/Mohamed-Hamdy/static/media/moviesHome2.faa0a24feb6d5a849811.PNG",
@@ -17,9 +17,9 @@
     "static/media/amazonHome.PNG": "/Mohamed-Hamdy/static/media/amazonHome.4146c745d36a2875acce.PNG",
     "static/media/moviepage.PNG": "/Mohamed-Hamdy/static/media/moviepage.16f486c0754b1f5d682c.PNG",
     "static/media/shoppingSearch.PNG": "/Mohamed-Hamdy/static/media/shoppingSearch.58c9695f94b36088ead8.PNG",
-    "static/media/Free-CV-template-86.pdf": "/Mohamed-Hamdy/static/media/Free-CV-template-86.e58293df7c04acec30fe.pdf",
     "static/media/me.png": "/Mohamed-Hamdy/static/media/me.6104d65a43cd3f493535.png",
     "static/media/portfolio.PNG": "/Mohamed-Hamdy/static/media/portfolio.fd70f76e576b6ada750a.PNG",
+    "static/media/full stack developer Mohamed Hamdy.pdf": "/Mohamed-Hamdy/static/media/full stack developer Mohamed Hamdy.ed1f5ca2d521e299bf64.pdf",
     "static/media/shoppingCart.PNG": "/Mohamed-Hamdy/static/media/shoppingCart.be8055462d6e1307ff13.PNG",
     "static/media/adminAddProduct.PNG": "/Mohamed-Hamdy/static/media/adminAddProduct.a4d6aa7cbe6e11d06d96.PNG",
     "static/media/admin.PNG": "/Mohamed-Hamdy/static/media/admin.ca065ca4c0f95740d5f7.PNG",
@@ -38,11 +38,11 @@
     "static/media/amazonSignIn.PNG": "/Mohamed-Hamdy/static/media/amazonSignIn.6d0b958a86cc68e69249.PNG",
     "static/media/adminSingIn.PNG": "/Mohamed-Hamdy/static/media/adminSingIn.acfcf21f95c425aaaa27.PNG",
     "index.html": "/Mohamed-Hamdy/index.html",
-    "main.1abdc48f.css.map": "/Mohamed-Hamdy/static/css/main.1abdc48f.css.map",
-    "main.fb18c84c.js.map": "/Mohamed-Hamdy/static/js/main.fb18c84c.js.map"
+    "main.212e447d.css.map": "/Mohamed-Hamdy/static/css/main.212e447d.css.map",
+    "main.5035e5c4.js.map": "/Mohamed-Hamdy/static/js/main.5035e5c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1abdc48f.css",
-    "static/js/main.fb18c84c.js"
+    "static/css/main.212e447d.css",
+    "static/js/main.5035e5c4.js"
   ]
 }
