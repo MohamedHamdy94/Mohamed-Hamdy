@@ -4,36 +4,21 @@
   gap: 2rem;
   padding-top: 2rem;
 }
-.portfolio__item {
-  background: var(--color-bg-variant);
-  padding: 2rem;
-  border-radius: 2rem;
-  border: 1px solid transparent;
-  transition: var(--transition);
-}
-.portfolio__item:hover {
-  border-color: var(--color-primary-variant);
-  background: transparent;
-}
-.portfolio__item-image {
-  border-radius: 1.5rem;
-  overflow: hidden;
-}
-.portfolio__item h4 {
-  margin: 0.5rem;
-}
-.portfolio__cta {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-  align-items: flex-end;
-}
-p {
-}
+
 ul li {
   color: white;
   list-style: disc;
 }
 h4 {
   font-weight: bolder;
+}
+
+.home{
+  margin: 2rem;
+  position: fixed;
+}
+@media screen and (max-width: 600px) {
+  .home{
+    margin: 1rem;
+  }
 }

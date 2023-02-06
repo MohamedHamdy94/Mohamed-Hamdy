@@ -322,11 +322,7 @@ const data = {
         experienceDegree: '',
         experiencePercent: '',
       },
-      {
-        experienceName: ' Redux thunk/toolkit/saga',
-        experienceDegree: '',
-        experiencePercent: '',
-      },
+  
       {
         experienceName: 'PWA',
         experienceDegree: '',
@@ -358,16 +354,23 @@ const data = {
         experiencePercent: '',
       },
       {
+        experienceName: ' API Integrations',
+        experienceDegree: '',
+        experiencePercent: '',
+      },
+      {
         experienceName:
           'JS Unit testing Techniques, MochaJS / jasmine / Karma,',
         experienceDegree: '',
         experiencePercent: '',
       },
       {
-        experienceName: ' API Integrations',
+        experienceName: ' Redux thunk/ toolkit/ saga',
         experienceDegree: '',
         experiencePercent: '',
       },
+     
+      
     ],
     backend: [
       {

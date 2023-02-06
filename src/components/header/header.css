@@ -35,15 +35,26 @@ header {
 }
 
 /*========= ME =========== */
-.me {
-  background: linear-gradient(var(--color-primary), transparent);
+.hme{
+    background: transparent;
   width: 19rem;
   height: 24rem;
   position: absolute;
   left: calc(50% - 9.4rem);
-  margin-top: 2rem;
-  border-radius: 5rem;
+  border-radius: 2rem;
   overflow: hidden;
+  transition: var(--transition);
+}
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 19rem;
+  height: 24rem;
+  margin-top: 2rem;
+  position: absolute;
+  left: calc(50% - 9.4rem);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: var(--transition);
 }
 .me img {
   height: 100%;

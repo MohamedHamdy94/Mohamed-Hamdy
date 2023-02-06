@@ -8,30 +8,6 @@
   color: var(--color-1ight);
   margin: 2rem;
 }
-.portfolio__item {
-  background: var(--color-bg-variant);
-  padding: 1.3rem;
-  border-radius: 2rem;
-  border: 1px solid transparent;
-  transition: var(--transition);
-}
-.portfolio__item:hover {
-  border-color: var(--color-primary-variant);
-  background: transparent;
-}
-.portfolio__item-image {
-  border-radius: 1.5rem;
-  overflow: hidden;
-}
-.portfolio__item h4 {
-  margin: 0.5rem;
-}
-.portfolio__cta {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-  align-items: flex-end;
-}
 
 @media screen and (max-width: 1024px) {
   .portfolio__container {

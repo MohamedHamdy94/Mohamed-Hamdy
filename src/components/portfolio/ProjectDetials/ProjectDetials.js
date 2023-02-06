@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import data from '../../../assets/portfplio';
 import Porject from '../../project/project';
 import './detials.css';
@@ -24,8 +24,12 @@ const ProjectDetials = () => {
         alert('project not found');
       }
     }
-  }, [id]);
-  return (
+  },[id,angular,react]);
+  return (<>
+    <Link to={'/'} className="btn btn-primary home">
+   Home
+  </Link>
+
     <div className="container  portfolio__container__detials">
       {ProjectDetials.map((project, i) => {
         return (
@@ -35,15 +39,19 @@ const ProjectDetials = () => {
         );
       })}
       <div className="portfolio__cta">
-        <a href={project.githup} className="btn " target="_blank">
+        <a href={project.githup} className="btn " target="_blank" rel='noreferrer'>
           Github
         </a>
 
-        <a href={project.link} className="btn  btn-primary" target="_blank">
-          Live Demo
-        </a>
+        
+        {project.link && (
+            <a href={project.link} className="btn btn-primary" target="_blank" rel='noreferrer'>
+              Live Demo
+            </a>
+          )}
       </div>
     </div>
+  </>
   );
 };
 

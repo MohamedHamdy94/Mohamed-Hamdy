@@ -55,15 +55,24 @@ const About = () => {
             in providing quality service to the company.
           </p> */}
           <p>
+          <p>
             Full Stack Web Developer using MEARN. Graduated from Information
-            Technology Institute (ITI). had many opportunities to work in a vast
+            Technology Institute (ITI), that enhanced my Skills like JavaScript, React, Angular, Node.js, MongoDB and writing Clean Code ...etc.<br/>
+             I have many opportunities to work in a vast
             spectrum of web technologies what let me gather a significant amount
-            of various experience. have the knowledge and patience required to
-            make just about anything.<br/>
-            {/* I can plan, design, build, launch, and maintain a website myself */}
-            Development for me is not just a code, but a whole business process for which I always find effective and competitive solutions.<br/>
-            have serious passion for UI effects, animations and creating intuitive, dynamic user experiences,
-           
+            of various experience.<br/>
+            {/* I have the knowledge and patience required to
+            make just about anything.
+            <br /> */}
+            Development for me is not just a code, but a whole business process
+            for which I always find effective and competitive solutions.
+            <br />
+ 
+            I can plan, design, build, launch, and maintain a website myself
+            <br />
+           I have serious passion for UI effects, animations and creating
+            intuitive, dynamic user experiences,
+          </p>
 
           </p>
 
