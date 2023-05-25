@@ -10,7 +10,7 @@ const Porject = (props) => {
       <div className=" portfolio__image">
         <Link to={`project/${project.id}`}>
           {project.image && (
-            <img
+            <img className='projectImg'
               src={require(`../../assets/imges/${project.image}`)}
               alt="Project image"
             />

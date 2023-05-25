@@ -89,7 +89,6 @@ const data = {
     },
     {
       id: 3,
-
       name: 'portfolio',
       image: 'portfolio.PNG',
       link: 'https://mohamedhamdy94.github.io/Mohamed-Hamdy/',
@@ -111,11 +110,24 @@ const data = {
         },
       ],
     },
+    {
+      id: 4,
+      name: 'Car Rental',
+      image: 'Car.PNG',
+      link: 'https://mohamedhamdy94.github.io/Cars-App/',
+      githup: 'https://github.com/MohamedHamdy94/Cars-App',
+      details: [
+        {
+          name: 'Home page',
+          image: 'Cars.png',
+          description: [`It's just one page, responsive on all screens`],
+        },
+      ],
+    },
   ],
   angularProjects: [
     {
       id: 4,
-
       name: 'Shipping App',
       image: 'shoppingHome.PNG',
       link: 'https://mohamedhamdy94.github.io/angular-store/github-hosting-project/',
@@ -158,7 +170,6 @@ const data = {
     },
     {
       id: 5,
-
       name: 'To do App',
       image: 'Angular ToDo.PNG',
       link: 'https://mohamedhamdy94.github.io/Angular-ToDo-App/',
@@ -322,7 +333,7 @@ const data = {
         experienceDegree: '',
         experiencePercent: '',
       },
-  
+
       {
         experienceName: 'PWA',
         experienceDegree: '',
@@ -369,8 +380,6 @@ const data = {
         experienceDegree: '',
         experiencePercent: '',
       },
-     
-      
     ],
     backend: [
       {

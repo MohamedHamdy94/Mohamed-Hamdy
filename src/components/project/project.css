@@ -13,6 +13,7 @@
   width: 100%;
   border-radius: 1.5rem;
   overflow: hidden;
+  max-height: 250px;
 }
 .portfolio__item h4 {
   margin: 0.5rem;
