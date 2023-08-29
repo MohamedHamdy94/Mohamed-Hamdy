@@ -9,7 +9,7 @@ const Portfolio = () => {
   console.log(reactProjects);
 
   const angularProjects = data.angularProjects;
-  const backendProjects = data.backendProjects;
+  const fullStackProjects = data.fullStackProjects;
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -37,17 +37,16 @@ const Portfolio = () => {
         })}
       </div>
 
-      {/* <h3>Backend Projects</h3>
+     <h3>Full Stack Projects</h3>
       <div className="container portfolio__container">
-      {backendProjects.map((project) => {
+      {fullStackProjects.map((project) => {
           return (
             <>
-
               <Porject project={project}></Porject>
             </>
           )
         })} 
-      </div>*/}
+      </div>
     </section>
   );
 };

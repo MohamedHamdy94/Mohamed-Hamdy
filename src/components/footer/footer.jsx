@@ -13,7 +13,7 @@ const footer = () => {
         <a href="https://github.com/MohamedHamdy94">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/mohamed-hamdy-ahmed-mohamed-138693219/">
+        <a href="https://www.linkedin.com/in/mohamed-mohamed-138693219/">
           <BsLinkedin />
         </a>
       </div>

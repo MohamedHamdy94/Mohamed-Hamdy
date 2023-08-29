@@ -11,6 +11,8 @@ const ProjectDetials = () => {
   const angular = data.angularProjects.find((project) => project.id == id);
 
   const react = data.reactProjects.find((project) => project.id == id);
+  const fullStack = data.fullStackProjects.find((project) => project.id == id);
+
   useEffect(() => {
     if (id) {
       console.log(id);
@@ -20,6 +22,9 @@ const ProjectDetials = () => {
       } else if (angular) {
         setProject(angular);
         setProjectDetials(angular.details);
+      } else if (fullStack) {
+        setProject(fullStack);
+        setProjectDetials(fullStack.details);
       } else {
         alert('project not found');
       }
@@ -33,8 +38,8 @@ const ProjectDetials = () => {
     <div className="container  portfolio__container__detials">
       {ProjectDetials.map((project, i) => {
         return (
-          <div className="m-3">
-            <Porject key={i} project={project}></Porject>
+          <div key={i} className="m-3">
+            <Porject  project={project}></Porject>
           </div>
         );
       })}
