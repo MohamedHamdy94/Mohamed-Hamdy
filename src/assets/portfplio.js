@@ -372,36 +372,34 @@ const data = {
     },
     {
       id: 9,
-      name: 'To do App',
-      image: 'Angular ToDo.PNG',
-      link: 'https://mohamedhamdy94.github.io/Angular-ToDo-App/',
-      githup: 'https://github.com/MohamedHamdy94/Angular-ToDo-App.git',
+      name: 'Number Verify App',
+      image: 'numHome.PNG',
+      link: 'https://mern-number.onrender.com',
+      githup: 'https://github.com/MohamedHamdy94/NumbersProject',
       details: [
         {
           name: 'Home page',
-          image: 'Angular ToDo.PNG',
+          image: 'numHome.PNG',
           description: [
-            `Sharing data between components using props `,
-            `
-        Red is Parent Component for the To-Do`,
-            `Yellow borders are child components one for the input with add button [which will emit the input value to the parent component ]
-         Child to parent
-         Using output and event emitter is a way to share data is to emit data from the child, which can be listed to by the parent. This approach is ideal when you want to share data changes that occur on things like button clicks, form entires, and other user events.`,
-            `
-         This approach is ideal when you want to share data changes that occur on things like button clicks, form entires, and other user events.`,
-            `
-         Other yellow border is for the other child component of the items list]
-         Parent to child:`,
-            `
-         This is probably the most common and straightforward method of sharing data. It works by using the @lnput) decorator to allow data to be passed via the template.`,
-            `
-         User can add new todo`,
-            `
-         User can delete todo `,
-            `
-         User can mark as completed and when mark as completed will be marked with linethrough. `,
+            'this App Allows you to validate and provide information about a phone number in the database.',
           ],
         },
+        {
+          name: 'login page',
+          image: 'numLogin.PNG',
+          description: [
+'a log-in button on the login page that allows the user to log in with any username or password.'          ],
+        },
+        {
+          name: 'history page',
+          image: 'numHistory.PNG',
+          description: [
+` A history page to display all of the numbers entered into the system and their results, this page should also have 
+filters (phone number, date, status, etc.).`,`Higher Order Component (HOC) called 
+requireAuth that only shows the history component to logged-in users and redirects non-logged-in users to 
+the login page`   ,' Only logged-in users should be able to access the history page'       ],
+        },
+
       ],
     },
   ],
