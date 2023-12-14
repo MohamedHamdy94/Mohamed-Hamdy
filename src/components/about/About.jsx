@@ -73,10 +73,7 @@ const About = () => {
            I have serious passion for UI effects, animations and creating
             intuitive, dynamic user experiences,
           </p>
-
-        
-
-          <a href="#contact" className="btn btn-primary aboutBtn">
+<a href="#contact" className="btn btn-primary aboutBtn">
             Let's Talk
           </a>
         </div>
