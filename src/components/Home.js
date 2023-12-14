@@ -29,8 +29,12 @@ const Home = () => {
   return (
     <>
           <div className=" stars">
-        {newElement.map((item) => {
-          return item;
+        {newElement.map((item,i) => {
+          return(<div key={i}>
+          
+          {item}
+          </div>
+          );
         })}
       </div>
       <Header />

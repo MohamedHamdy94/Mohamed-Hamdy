@@ -54,7 +54,7 @@ const About = () => {
             SCSS, JSON, AJAX, Typescript, Angular and React and use these skills
             in providing quality service to the company.
           </p> */}
-          <p>
+          
           <p>
             Full Stack Web Developer using MEARN. Graduated from Information
             Technology Institute (ITI), that enhanced my Skills like JavaScript, React, Angular, Node.js, MongoDB and writing Clean Code ...etc.<br/>
@@ -74,7 +74,7 @@ const About = () => {
             intuitive, dynamic user experiences,
           </p>
 
-          </p>
+        
 
           <a href="#contact" className="btn btn-primary aboutBtn">
             Let's Talk

@@ -18,9 +18,9 @@ const Services = () => {
             <h3>Web Development</h3>
           </div>
           <ul className=" service__list">
-            {WebDevelopment.map((service) => {
+            {WebDevelopment.map((service,i) => {
               return (
-                <li>
+                <li key={i}>
                   <div>
                     <BiCheck className="service__list-icon" />
                   </div>{' '}
@@ -36,9 +36,9 @@ const Services = () => {
             <h3>UI/UX Design</h3>
           </div>
           <ul className=" service__list">
-            {UI_UX_Design.map((service) => {
+            {UI_UX_Design.map((service,i) => {
               return (
-                <li>
+                <li key={i}>
                   <div>
                     <BiCheck className="service__list-icon" />
                   </div>

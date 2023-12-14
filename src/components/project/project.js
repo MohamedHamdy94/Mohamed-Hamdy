@@ -31,8 +31,8 @@ const Porject = (props) => {
           )}
           {project.description && (
             <ul>
-              {project.description.map((description) => {
-                return <li>{description}</li>;
+              {project.description.map((description,i) => {
+                return <li key={i}>{description}</li>;
               })}
             </ul>
           )}
