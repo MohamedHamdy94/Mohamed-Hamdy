@@ -8,7 +8,8 @@ import Portfolio from './portfolio/Portfolio';
 import Testimonials from './testimonials/testimonials';
 import Contact from './contact/Contact';
 import './styleStar.css';
-
+import Projects from '../project/Projects';
+import img from '../assets/imges/Cars.png'
 const Home = () => {
   
   const [newElement, setnewElement] = useState([]);
@@ -27,8 +28,6 @@ const Home = () => {
   }, []);
   return (
     <>
-
-
           <div className=" stars">
         {newElement.map((item) => {
           return item;
@@ -39,8 +38,9 @@ const Home = () => {
       <About />
       <Experience />
       <Services />
-      <Portfolio />
-      {/* <Testimonials /> */}
+      <Projects/>
+      {/* <Portfolio /> */}
+      <Testimonials />
       <Contact />
 
 

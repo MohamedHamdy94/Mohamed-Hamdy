@@ -7,7 +7,8 @@ const data = {
       link: 'https://mohamedhamdy94.github.io/Movies-App-toolkit-saga/',
       githup: 'https://github.com/MohamedHamdy94/Movies-App-toolkit-saga.git',
 
-      details: [
+          category: "React",
+details: [
         {
           name: 'Home page',
           image: 'moviesHome.PNG',
@@ -59,7 +60,8 @@ const data = {
       link: 'https://mohamedhamdy94.github.io/React-To-Do-App/',
       githup: 'https://github.com/MohamedHamdy94/React-To-Do-App.git',
 
-      details: [
+          category: "React",
+details: [
         {
           name: 'Home page',
           image: 'React todo.PNG',
@@ -93,7 +95,8 @@ const data = {
       image: 'portfolio.PNG',
       link: 'https://mohamedhamdy94.github.io/Mohamed-Hamdy/',
       githup: 'https://github.com/MohamedHamdy94/protfolio.git',
-      details: [
+          category: "React",
+details: [
         {
           name: 'Home page',
           image: 'portfolio.PNG',
@@ -116,7 +119,8 @@ const data = {
       image: 'Car.PNG',
       link: 'https://mohamedhamdy94.github.io/Cars-App/',
       githup: 'https://github.com/MohamedHamdy94/Cars-App',
-      details: [
+          category: "React",
+details: [
         {
           name: 'Home page',
           image: 'Cars.png',
@@ -133,7 +137,8 @@ const data = {
       link: 'https://mohamedhamdy94.github.io/angular-store/github-hosting-project/',
       githup: 'https://github.com/MohamedHamdy94/angular-store.git',
 
-      details: [
+          category: "Angular",
+details: [
         {
           name: 'Home page',
           image: 'shoppingHome.PNG',
@@ -174,7 +179,8 @@ const data = {
       image: 'Angular ToDo.PNG',
       link: 'https://mohamedhamdy94.github.io/Angular-ToDo-App/',
       githup: 'https://github.com/MohamedHamdy94/Angular-ToDo-App.git',
-      details: [
+          category: "Angular",
+details: [
         {
           name: 'Home page',
           image: 'Angular ToDo.PNG',
@@ -210,7 +216,8 @@ const data = {
     //   link: '',
 
     //   githup: 'https://github.com/MohamedHamdy94/amazon.git',
-    //   details: [
+    //       category: "React",
+//details: [
     //     {
     //       name: 'Sing In page',
     //       image: 'adminSingIn.PNG',
@@ -262,7 +269,8 @@ const data = {
       link: 'https://amzon-clone.onrender.com',
       githup: 'https://github.com/MohamedHamdy94/Amazon-clone-using-MERN',
 
-      details: [
+          category: "MERN",
+details: [
         {
           name: 'Home page',
           image: 'amazonScreen.PNG',
@@ -327,7 +335,8 @@ const data = {
       image: 'admin.PNG',
       link: 'https://admin-8gy5.onrender.com',
       githup: 'https://github.com/MohamedHamdy94/amazon.git',
-      details: [
+          category: "MEAN",
+details: [
         {
           name: 'Sing In page',
           image: 'adminSingIn.PNG',
@@ -376,7 +385,8 @@ const data = {
       image: 'numHome.PNG',
       link: 'https://mern-number.onrender.com',
       githup: 'https://github.com/MohamedHamdy94/NumbersProject',
-      details: [
+          category: "MERN",
+details: [
         {
           name: 'Home page',
           image: 'numHome.PNG',
